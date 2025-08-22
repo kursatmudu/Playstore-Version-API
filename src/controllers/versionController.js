@@ -1,4 +1,4 @@
-const appVersionService = require("../services/appVersionService");
+import appVersionService from "../services/appVersionService.js";
 
 class VersionController {
   async getVersion(req, res) {
@@ -12,11 +12,11 @@ class VersionController {
       });
     } catch (err) {
       res.status(500).json({
-        error: "Versiyon alınamadı",
+        error: "Failed to fetch version",
         details: err.message,
       });
     }
   }
 }
 
-module.exports = new VersionController();
+export default new VersionController();

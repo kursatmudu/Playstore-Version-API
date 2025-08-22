@@ -29,8 +29,11 @@ npm install
 ```
 3. Create a .env file:
 ```bash
-PORT=3388 (Default port: 3000)
+PORT=3388
 ```
+> Default port: **3000** if not specified.
+
+
 4. Start the server:
 ```bash
 node server.js
