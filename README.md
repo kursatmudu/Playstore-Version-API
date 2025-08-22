@@ -1,6 +1,6 @@
 # Playstore Version API
 
-[![Node.js CI](https://github.com/<your-username>/playstore-version-api/actions/workflows/node.js.yml/badge.svg)](https://github.com/<your-username>/playstore-version-api/actions)
+[![Node.js CI](https://github.com/kursatmudu/playstore-version-api/actions/workflows/node.js.yml/badge.svg)](https://github.com/kursatmudu/playstore-version-api/actions)
 
 A simple REST API to fetch **Android app version information** from the Google Play Store.  
 Built with `google-play-scraper` and structured following **SOLID principles** for clean, maintainable code.  
@@ -20,7 +20,7 @@ Built with `google-play-scraper` and structured following **SOLID principles** f
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/playstore-version-api.git
+   git clone https://github.com/kursatmudu/playstore-version-api.git
    cd playstore-version-api
    ```
 2. Install dependencies:
