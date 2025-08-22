@@ -1,0 +1,16 @@
+{
+  "name": "param-version-server",
+  "version": "1.0.0",
+  "main": "appVersionService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "google-play-scraper": "^10.0.1"
+  }
+}
